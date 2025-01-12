@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">ESSEGHAIRI SLIM</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">Projects</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-96 flex items-center justify-center" style="background-image: url('your-background-image.jpg');">
+        <h2 class="text-white text-4xl font-bold text-center bg-black bg-opacity-50 px-4 py-2">Welcome to My Portfolio</h2>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold mb-6 text-center">My Skills</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <img src="img/html.webp" alt="">
+                <div class="bg-white p-4 shadow-md rounded-lg text-center">HTML SENIOR</div>
+                <img src="img/css.jpg" alt="">
+                <div class="bg-white p-4 shadow-md rounded-lg text-center">CSS SENIOR</div>
+                <img src="img/js.jpg" alt="">
+                <div class="bg-white p-4 shadow-md rounded-lg text-center">JAVA SCRIPT SENIOR</div>
+                <img src="img/R JS.png" alt="" style="height: 100%;">
+                <div class="bg-white p-4 shadow-md rounded-lg text-center">REACT JS SENIOR</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-12 bg-gray-200">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold mb-6 text-center">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md rounded-lg">
+                    <img src="img/eCommerce-Website-Features-1920-x-1080.jpg" alt="Project 1" class="w-full h-40 object-cover rounded-t-lg">
+                    <div class="p-4">
+                        <h4 class="text-lg font-bold">E COMMERCE WEB SITE</h4>
+                        <p class="text-gray-600">An e-commerce website is a digital platform that allows businesses to sell products or services online to customers. It serves as a virtual storefront, enabling users to browse, select, and purchase items through a secure and seamless online transaction process..</p>
+                    </div>
+                </div>
+                <!-- Repeat for more projects -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold mb-6 text-center">Contact Me</h3>
+            <form class="max-w-lg mx-auto bg-white p-6 shadow-md rounded-lg space-y-4">
+                <input type="text" placeholder="Name" class="w-full p-3 border rounded-lg">
+                <input type="email" placeholder="Email" class="w-full p-3 border rounded-lg">
+                <textarea placeholder="Message" class="w-full p-3 border rounded-lg"></textarea>
+                <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white text-center p-4">
+        <p>&copy; 2025 esseghiri slim. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
